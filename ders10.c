@@ -3,15 +3,15 @@
 int main(){
 
 
-    //////////////C H E A T S H E E T///////////////
-    //                                            //
-    // TOPLAMA sayi++, sayi += 1, sayi = sayi + 1 //
-    // CIKARMA sayi--, sayi -= 1, sayi = sayi - 1 //
-    // CARPMA  ------, sayi *= 4, sayi = sayi * 4 //
-    // BOLME   ------, sayi /= 3, sayi = sayi / 3 //
-    // MOD ALMA -----, sayi %= 5, sayi = sayi % 5 //
-    //                                            //
-    //00000000000000000000000000000000000000000000//
+    ////////////////// C H E A T S H E E T /////////////////
+    //                                                    //
+    // TOPLAMA sayi++, sayi += 1, sayi = sayi + 1, ++sayi //
+    // CIKARMA sayi--, sayi -= 1, sayi = sayi - 1, --sayi //
+    // CARPMA  ------, sayi *= 4, sayi = sayi * 4, ------ //
+    // BOLME   ------, sayi /= 3, sayi = sayi / 3, ------ //
+    // MOD ALMA -----, sayi %= 5, sayi = sayi % 5, ------ //
+    //                                                    //
+    //0000000000000000000000000000000000000000000000000000//
 
 
     //TOPLAMA ISLEMI
@@ -26,7 +26,7 @@ int main(){
 
     // veya
 
-    sayi1 += 1; // 2.sý bu
+    sayi1 += 1; // 2.sÃ½ bu
 
     sayi1++;  // 3.su bu
 
