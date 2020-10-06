@@ -74,8 +74,23 @@ int main(){
     sayi5 %= 5;
     printf("Sayi5'in mod 5ini aldik:%d\n",sayi5);
     sayi5 = sayi5 % 3;
-    printf("Sayi5'in mod 5inin mod 3unu aldik:%d",sayi5);
+    printf("Sayi5'in mod 5inin mod 3unu aldik:%d\n",sayi5);
 
+    // ++sayi ve --sayi ornekleri
+
+    int sayi6,sayi7,sayi8,sayi9;
+
+    sayi6 = 10;
+    sayi7 = sayi6 + 20;
+    sayi8 = sayi6 - 1; // sayi 6 nin degeri bozulmadi
+    sayi9 = sayi6 - 1; // sayi 6 nin degeri bozulmadi
+    printf("sayi6 = %d, sayi7 = %d, sayi8 = %d, sayi9 = %d\n",sayi6,sayi7,sayi8,sayi9);
+
+    int sayi10,sayi11,sayi12;
+    sayi10 = 5;
+    sayi11 = --sayi10; // sayi10'un değerini bozduk 3 e kadar azaldi sayi10.
+    sayi12 = --sayi10; // sayi10'un değerini bozduk 3 e kadar azaldi sayi10.
+    printf("sayi10=%d, sayi11=%d, sayi12=%d",sayi10,sayi11,sayi12);
 
     return 0;
 }
